@@ -1,6 +1,6 @@
 :root {
   --gutter-width: 10px;
-  --outer-margin: 20spx;
+  --outer-margin: 20px;
   --gutter-compensation: calc((var(--gutter-width) * 0.5) * -1);
   --half-gutter-width: calc((var(--gutter-width) * 0.5));
   --xs-min: 0rem;
@@ -30,8 +30,8 @@
 }
 
 .container-fluid {
-  padding-right: var(--gutter-width, 16px);
-  padding-left: var(--gutter-width, 16px);
+  padding-right: var(--gutter-width, 10px);
+  padding-left: var(--gutter-width, 10px);
 }
 
 @media (--sm-viewport) {
