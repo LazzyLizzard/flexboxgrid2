@@ -1,6 +1,6 @@
 :root {
-  --gutter-width: 16px;
-  --outer-margin: 32px;
+  --gutter-width: 10px;
+  --outer-margin: 20px;
   --gutter-compensation: calc((var(--gutter-width) * 0.5) * -1);
   --half-gutter-width: calc((var(--gutter-width) * 0.5));
   --xs-min: 0rem;
@@ -30,8 +30,8 @@
 }
 
 .container-fluid {
-  padding-right: var(--gutter-width, 16px);
-  padding-left: var(--gutter-width, 16px);
+  padding-right: var(--gutter-width, 10px);
+  padding-left: var(--gutter-width, 10px);
 }
 
 @media (--sm-viewport) {
@@ -68,8 +68,8 @@
   flex: 0 1 auto;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-right: var(--gutter-compensation, -08px);
-  margin-left: var(--gutter-compensation, -08px);
+  margin-right: var(--gutter-compensation, -5px);
+  margin-left: var(--gutter-compensation, -5px);
 }
 
 .row.reverse {
@@ -84,8 +84,8 @@
   box-sizing: border-box;
   flex: 0 0 auto;
   flex-basis: 100%;
-  padding-right: var(--half-gutter-width, 8px);
-  padding-left: var(--half-gutter-width, 8px);
+  padding-right: var(--half-gutter-width, 5px);
+  padding-left: var(--half-gutter-width, 5px);
   max-width: 100%;
 }
 
@@ -525,8 +525,8 @@
   .col-md-offset-16 {
     box-sizing: border-box;
     flex: 0 0 auto;
-    padding-right: var(--half-gutter-width, 08px);
-    padding-left: var(--half-gutter-width, 08px);
+    padding-right: var(--half-gutter-width, 5px);
+    padding-left: var(--half-gutter-width, 5px);
   }
 
   .col-md {
@@ -764,8 +764,8 @@
   .col-lg-offset-16 {
     box-sizing: border-box;
     flex: 0 0 auto;
-    padding-right: var(--half-gutter-width, 08px);
-    padding-left: var(--half-gutter-width, 08px);
+    padding-right: var(--half-gutter-width, 5px);
+    padding-left: var(--half-gutter-width, 5px);
   }
 
   .col-lg {
@@ -1004,8 +1004,8 @@
   .col-xl-offset-16 {
     box-sizing: border-box;
     flex: 0 0 auto;
-    padding-right: var(--half-gutter-width, 08px);
-    padding-left: var(--half-gutter-width, 08px);
+    padding-right: var(--half-gutter-width, 5px);
+    padding-left: var(--half-gutter-width, 5px);
   }
 
   .col-xl {
